@@ -1,5 +1,5 @@
 #name : form label and text_field
 #group: form_for Tags
 # --
-<%= f.label :$1 %>
-<%= f.text_field :$1 %>$0
+<%= ${1:f}.label :$2 %>
+<%= ${1:f}.text_field :$2 %>$0
