@@ -1,5 +1,5 @@
 #name : <% collection_select ... %>
 #group: form_for Tags
 # --
-<% collection_select(${1::object_id}, ${2:Class.all}, ${3::id}, ${4::name}${5:, {:disabled => lambda{|obj| obj.archived? }}}) %>
+<%= collection_select(${1::object_id}, ${2:Class.all}, ${3::id}, ${4::name}) %>
 $0$>
