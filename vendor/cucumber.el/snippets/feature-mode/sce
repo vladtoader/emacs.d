@@ -1,4 +1,7 @@
 #name: Scenario: Name
 # --
 Scenario: ${1:Name}
+  Given ${2:I have a prerquisite}
+  When ${3:I do something}
+  Then ${4:I expect something to occur}
   $0
